@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="EShop:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="EShop-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="EShop:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/java/ApplicationResources.properties" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/java/ApplicationResources_de.properties" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/java/log4j.properties" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/java/struts.xml" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
