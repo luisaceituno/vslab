@@ -36,6 +36,4 @@ public class UserDAO extends GenericHibernateDAO<User, Integer> {
 		}
 	}
 
-
-
 }
